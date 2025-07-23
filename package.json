@@ -1,0 +1,23 @@
+{
+  "name": "egg-timer-app",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohammadhossienkiyaie/eggTimer-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mohammadhossienkiyaie/eggTimer-app/issues"
+  },
+  "homepage": "https://github.com/mohammadhossienkiyaie/eggTimer-app#readme",
+  "description": "",
+  "devDependencies": {
+    "electron": "^37.2.3"
+  }
+}
