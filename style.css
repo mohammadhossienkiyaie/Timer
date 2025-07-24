@@ -10,7 +10,52 @@
 }
 
 .appDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
     width: 350px;
     height: 300px;
-    border: 2px solid black;
+}
+.mainText{
+    font-size: 20px;
+    font-weight: bold;
+}
+.firstText{
+    font-size: 16px;
+}
+.fontColor{
+    color: white;
+}
+.timerBtn{
+    border: 2px solid #f0c970;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+}
+.timerBtn:hover{
+    background-color: #f0c970;
+}
+.btnDiv{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+.startBtn{
+    border: 2px solid green;
+    border-radius: 5px;
+    padding: 4px 15px 4px 15px;
+}
+.startBtn:hover{
+    background-color: green;
+}
+.stopBtn:hover{
+    background-color: red;
+}
+.stopBtn{
+    border: 2px solid red;
+    border-radius: 5px;
+}
+.startDiv{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
 }
