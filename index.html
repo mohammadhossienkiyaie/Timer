@@ -22,12 +22,17 @@
                     <button id="thirdTimer" class="timerBtn , fontColor">hard</button>
                 </div>
             </div>
-            <div>
-                <p id="displayTime" class="fontColor">00:00</p>
+            <div class="timerContainer">
+                <svg class="timer-svg" viewBox="0 0 100 100">
+                    <circle class="timer-bg" cx="50" cy="50" r="45"></circle>
+                    <circle class="timer-progress" cx="50" cy="50" r="45"></circle>
+                </svg>
+                <div id="displayTime" class="fontColor">00:00</div>
             </div>
             <div class="startDiv">
                 <button id="startBtn" class="startBtn , fontColor">start</button>
                 <button id="stopBtn" class="stopBtn , fontColor">stop</button>
+                <button id="restBtn" class="stopBtn , fontColor">rest</button>
             </div>
         </div>
     </div>

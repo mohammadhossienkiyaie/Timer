@@ -16,46 +16,92 @@
     width: 350px;
     height: 300px;
 }
-.mainText{
+
+.mainText {
     font-size: 20px;
     font-weight: bold;
 }
-.firstText{
+
+.firstText {
     font-size: 16px;
 }
-.fontColor{
+
+.fontColor {
     color: white;
 }
-.timerBtn{
+
+.timerBtn {
     border: 2px solid #f0c970;
     padding: 5px 10px 5px 10px;
     border-radius: 5px;
 }
-.timerBtn:hover{
+
+.timerBtn:hover {
     background-color: #f0c970;
 }
-.btnDiv{
+
+.btnDiv {
     display: flex;
     gap: 15px;
     justify-content: center;
 }
-.startBtn{
+
+.startBtn {
     border: 2px solid green;
     border-radius: 5px;
     padding: 4px 15px 4px 15px;
 }
-.startBtn:hover{
+
+.startBtn:hover {
     background-color: green;
 }
-.stopBtn:hover{
+
+.stopBtn:hover {
     background-color: red;
 }
-.stopBtn{
+
+.stopBtn {
     border: 2px solid red;
     border-radius: 5px;
 }
-.startDiv{
+
+.startDiv {
     display: flex;
     gap: 15px;
     justify-content: center;
+}
+
+.timer-svg {
+    width: 200px;
+    height: 200px;
+    transform: rotate(-90deg);
+}
+
+.timer-bg {
+    fill: none;
+    stroke: white;
+    stroke-width: 6;
+}
+
+.timer-progress {
+    fill: none;
+    stroke: #f7c551;
+    stroke-width: 6;
+    stroke-linecap: round;
+    stroke-dasharray: 282.74;
+    stroke-dashoffset: 282.74;
+    transition: stroke-dashoffset 0.5s linear;
+}
+#displayTime{
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);  
+}
+.timerContainer{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
 }
